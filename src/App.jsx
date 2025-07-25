@@ -8,7 +8,11 @@ function App() {
 
   return (
     <>
-      <h1>"Hello World Vite App"</h1>
+      <h1>Hello World Vite App</h1>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>
+        Increment
+      </button>
     </>
   )
 }
